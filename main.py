@@ -40,8 +40,8 @@ if __name__ == "__main__":
     base, altura, area = Rectangulo(A, B)
     print(f"Base: {base}, Altura: {altura}, Área: {area}")
 
-    # Ejemplo de uso
-    rectangulo = Rectangulo((1, 2), (4, 6))
-    print("Base:", rectangulo.base())  # Salida: 3
-    print("Altura:", rectangulo.altura())  # Salida: 4
-    print("Área:", rectangulo.area())  # Salida: 12
+# Ejemplo de uso corregido
+rectangulo = Rectangulo([(1, 2), (4, 2), (1, 6), (4, 6)])
+print("Base:", rectangulo.base())  # Salida: 3
+print("Altura:", rectangulo.altura())  # Salida: 4
+print("Área:", rectangulo.area())  # Salida: 12
